@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <h1>Infinite Scroll Photo Gallery</h1>
+  <p>A responsive photo gallery web application that fetches images from the Unsplash API and supports infinite scrolling.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <div class="section">
+    <h2>Features</h2>
+    <ul>
+      <li>Responsive grid layout for photos.</li>
+      <li>Infinite scrolling to dynamically load more photos.</li>
+      <li>Error handling and loading indicators.</li>
+      <li>Photographer's name displayed below each photo.</li>
+      <li>Image hover effects for interactivity (bonus).</li>
+    </ul>
+  </div>
 
-## Available Scripts
+  <div class="section">
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>React.js</li>
+      <li>Pure CSS for styling</li>
+      <li>Unsplash API</li>
+    </ul>
+  </div>
 
-In the project directory, you can run:
+  <div class="section">
+    <h2>Installation</h2>
+    <ol>
+      <li>Clone the repository:
+        <pre><code>git clone https://github.com/your-username/infinite-scroll-gallery.git</code></pre>
+      </li>
+      <li>Navigate to the project directory:
+        <pre><code>cd infinite-scroll-gallery</code></pre>
+      </li>
+      <li>Install dependencies:
+        <pre><code>npm install</code></pre>
+      </li>
+      <li>Create a <code>.env</code> file in the root directory and add your Unsplash API key:
+        <pre><code>REACT_APP_API_KEY=your_unsplash_api_key</code></pre>
+      </li>
+      <li>Start the development server:
+        <pre><code>npm start</code></pre>
+      </li>
+    </ol>
+  </div>
 
-### `npm start`
+  <div class="section">
+    <h2>Live Demo</h2>
+    <p>Check out the live application: <a href="https://your-live-site-link.com" target="_blank">Live Demo</a></p>
+  </div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <div class="section">
+    <h2>How It Works</h2>
+    <p>The application fetches photos from the Unsplash API and displays them in a responsive grid layout. Infinite scrolling is implemented using a scroll event listener, dynamically fetching new images when the user reaches the bottom of the page.</p>
+  </div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <div class="section">
+    <h2>Advanced Features (Bonus)</h2>
+    <ul>
+      <li>Image hover effects (zoom and shadow).</li>
+      <li>Lazy loading for improved performance.</li>
+      <li>Accessible design with alt tags for images.</li>
+      <li>Error message display for network or API issues.</li>
+    </ul>
+  </div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</body>
+</html>
