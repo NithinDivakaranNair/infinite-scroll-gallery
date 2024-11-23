@@ -33,7 +33,7 @@
     <h2>Installation</h2>
     <ol>
       <li>Clone the repository:
-        <pre><code>git clone https://github.com/your-username/infinite-scroll-gallery.git</code></pre>
+        <pre><code>git clone https://github.com/NithinDivakaranNair/infinite-scroll-gallery</code></pre>
       </li>
       <li>Navigate to the project directory:
         <pre><code>cd infinite-scroll-gallery</code></pre>
