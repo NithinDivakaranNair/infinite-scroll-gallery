@@ -6,7 +6,7 @@ function App() {
     <>
    <h1 style={{textAlign:"center"}}>Infinite Scroll Photo Gallery</h1>
    <PhotoGallery/>
-    </>
+    </> 
   );
 }
 
