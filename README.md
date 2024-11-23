@@ -52,7 +52,7 @@
 
   <div class="section">
     <h2>Live Demo</h2>
-    <p>Check out the live application: <a href="">Live Demo</a></p>
+    <p>Check out the live application: <a href="https://infinite-scroll-photo-gallery-gray.vercel.app/">Live Demo</a></p>
   </div>
 
   <div class="section">
